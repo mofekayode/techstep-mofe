@@ -1,0 +1,239 @@
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  html, body {
+    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+    background-color: #fdfdec
+  }
+  .header{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    box-shadow: 0px .3px 0px grey;
+  }
+  .app-header{
+    max-width: 1450px;
+    height: 75;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .link img{
+    height: 35px;
+    width: auto;
+  }
+
+  .hero-tag{
+    margin: 0px auto;
+    margin-top: 200px; 
+    width: 90%;
+    text-align: center;
+    font-size:30px
+  }
+  .hero-tag-active{
+    margin: 0px auto;
+    margin-top: 50px; 
+    width: 90%;
+    text-align: center;
+    font-size:30px;
+    transition: 0.4s ease-in-out;
+  }
+  .searchBar{
+    margin:50px auto;
+    min-width: 500px;
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    border: solid 1.3px rgb(180, 180, 180);
+    border-radius: 20px;
+    padding: 2px;
+    padding-left: 20px;
+    background-color:  #fdfdec
+  }
+ 
+  .searchBar input{
+    height: 100%;
+    width: 85%;
+    border: none;
+    background-color: #fdfdec
+
+  }
+  .searchBar input:focus{
+    outline: none;
+    background-color: #fdfdec
+  }
+  .searchBar input:Active{
+    outline: none;
+    background-color: #fdfdec
+  }
+  .srch-Btn{
+    background: black;
+    color:white;
+    border-radius: 0px 20px 20px 0px;
+    padding: 10px 30px;
+    line-height: 20px;
+    cursor: pointer;
+   
+  }
+  .srch-Btn>p{
+    font-size:25px;
+  }
+  .searchBar img{
+    height: 15px;
+    padding: 10px 5px 0px 5px;
+    
+  }
+  
+  .searchBar p{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600px;
+    line-height: 25px
+  }
+  
+  
+  
+  
+  
+  
+  
+  /* data page */
+  .info{
+    max-width: 1450px;
+    height: auto;
+    margin: auto;
+    display: block;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .card{
+    margin: 10px auto;
+    margin-top: 50px ;
+    background: rgb(233, 233, 233);
+    border-radius: 10px;
+    display: flex;
+    width: 90%;
+  }
+  .profile{
+    margin: 10px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 35px;
+    color: BLACK;
+    background: #F2F3F4;
+    font-size:27px
+  }
+  .card-left>h2{
+      margin-left:15px;
+  }
+  .card-left>h3{
+    margin-left:14px;
+    margin-top:-10px;
+}
+  .side{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+  
+  .age{
+    margin: 0px 10px;
+  }
+  
+  
+  
+  @media screen and (max-width: 750px) {
+    .searchBar{
+      min-width: 500px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .searchBar{
+      min-width: 300px;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .searchBar{
+      min-width: 260px;
+    }
+  }
+
+  .card{
+    margin: 10px auto;
+    margin-top: 50px ;
+    background: #DADEDF;
+    border-radius: 20px;
+    display: flex;
+    width: 90%;
+    width:500px;
+    height:300px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 12px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+  .card-left{
+   
+    
+   padding: 40px;
+   
+  }
+  .card-right>h3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 50px;
+    justify-content: space-between;
+    padding:4px ;
+    
+   
+  }
+  .unregistered{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 50px;
+    justify-content: space-between;
+    padding:2px 4px ;
+    width:92px;
+    color:white;
+    background-color:#F46A69;
+    border-radius:1px solid ;
+    border-radius:20px;
+    text-align: center
+   
+  }
+  .registered{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 50px;
+    justify-content: space-between;
+    padding:2px 4px ;
+    width:92px;
+    color:white;
+    background-color:#556EE5;
+    border-radius:1px solid ;
+    border-radius:20px;
+    text-align: center
+   
+  }
+  .showing{
+    margin:auto;
+    text-align: center
+  }
